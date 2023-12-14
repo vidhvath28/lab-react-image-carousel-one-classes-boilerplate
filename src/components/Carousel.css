@@ -1,1 +1,56 @@
 /* write your carousel css in this file */
+
+.container{
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+}
+
+.left-arrow{
+    left: 0;
+}
+
+.right-arrow{
+    right: 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow{
+    position: absolute;
+    top: 0;
+    width: 40px;
+    background-color: rgb(128, 128, 128);
+    opacity: 0.3;
+    cursor: pointer;
+    height: 600px;
+    filter: invert(1);
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(248, 248, 248,0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title{
+    top: 25%;
+    font-size: 55px;
+}
+
+.subtitle{
+    top: 75%;
+    font-size: 35px;
+}
